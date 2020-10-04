@@ -1,0 +1,91 @@
+- name: "Abiword"
+  description: "Abiword"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - abiword
+- name: "Calibre"
+  description: "Calibre"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - calibre    
+- name: "Calligra"
+  description: "Office Suite"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - calligra
+    - calligra-plan
+- name: "Focuswriter"
+  description: "Focuswriter"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - focuswriter    
+- name: "Ghostwriter"
+  description: "Ghostwriter"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - ghostwriter
+- name: "Gnumeric"
+  description: "Gnumeric"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gnumeric    
+- name: "Libre Office Fresh"
+  description: "Installs libre office fresh - feature branch - conflicts with still"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - hunspell-$LOCALE
+- name: "Libre Office Still"
+  description: "Installs libre office still - stable branch - conflicts with fresh"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - libreoffice-still
+    - libreoffice-still-$LOCALE
+    - hunspell-$LOCALE
+- name: "Moneydance"
+  description: "Moneydance"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - moneydance    
+- name: "Onlyoffice"
+  description: "Onlyoffice"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - onlyoffice-bin
+- name: "Scribus"
+  description: "Scribus"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - scribus
+- name: "WPS Office"
+  description: "Installs wps office"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - wps-office
+    - wps-office-mime
+    - ttf-wps-fonts

@@ -1,0 +1,21 @@
+- name: "ArcoLinux Dev"
+  description: "Software for ArcoLinux developers and betatesters"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
+    - discord
+    - firefox
+    - flameshot
+    - meld
+    - scrot
+    - simplescreenrecorder
+    - sublime-text-dev
+    - telegram-desktop
+    - the_platinum_searcher-bin
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman

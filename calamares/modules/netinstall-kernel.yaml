@@ -1,0 +1,69 @@
+- name: "Linux kernel without any nvidia"
+  description: "Installs only the latest linux kernel (not the one from iso)"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux
+- name: "Linux-lts kernel without any nvidia"
+  description: "Installs only the linux-lts kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-lts
+- name: "Linux-hardened kernel without any nvidia"
+  description: "Installs only the linux-hardened kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-hardened
+- name: "Linux-zen kernel without any nvidia"
+  description: "Installs only the linux-zen kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
+- name: "Nvidia with linux kernel"
+  description: "Installs nvidia and linux kernel - check Arch wiki nvidia"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux
+    - nvidia
+    - nvidia-settings
+    - nvidia-utils
+- name: "Nvidia-lts with linux-lts kernel"
+  description: "Installs nvidia-lts and linux-lts kernel - check Arch wiki nvidia"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-lts
+    - nvidia-lts
+    - nvidia-settings
+    - nvidia-utils
+- name: "Cuda toolkit"
+  description: "Installs the Cuda Toolkit"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cuda
+- name: "Intel-ucode"
+  description: "Installs intel-ucode - see Arch wiki microcode"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - intel-ucode
+- name: "Amd-ucode"
+  description: "Installs amd-ucode - see Arch wiki microcode"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - amd-ucode

@@ -1,0 +1,78 @@
+- name: "Bluetooth Support"
+  description: "Support for bluetooth - enable service"
+  hidden: false
+  selected: false
+  critical: false
+  expanded: false
+  packages:
+    - pulseaudio-bluetooth
+    - bluez
+    - bluez-libs
+    - bluez-utils
+    - blueberry
+- name: "Laptop Support"
+  description: "Support for laptops - enable service"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - tlp
+- name: "Network Discovery"
+  description: "Support for network discovery - enable service"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - avahi
+    - nss-mdns
+    - gvfs-smb
+- name: "Printing Support"
+  description: "Support for printing/cups - enable service"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - cups
+    - cups-pdf
+    - cups-filters
+    - gtk3-print-backends
+    - ghostscript
+    - gsfonts
+    - foomatic-db-engine
+    - foomatic-db
+    - foomatic-db-ppds
+    - foomatic-db-nonfree
+    - foomatic-db-nonfree-ppds
+    - gutenprint
+    - foomatic-db-gutenprint-ppds
+    - system-config-printer
+    - hplip
+    - libcups
+- name: "Samba"
+  description: "Support for samba - enable service"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - samba
+    - gvfs-smb
+- name: "Sound"
+  description: "Support for sound"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - pulseaudio
+    - pulseaudio-alsa
+    - pavucontrol
+    - alsa-utils
+    - alsa-plugins
+    - alsa-lib
+    - alsa-firmware
+    - gstreamer
+    - gst-plugins-good
+    - gst-plugins-bad
+    - gst-plugins-base
+    - gst-plugins-ugly
+    - volumeicon
+    - playerctl
