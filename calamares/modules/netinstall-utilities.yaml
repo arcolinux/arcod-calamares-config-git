@@ -19,6 +19,7 @@
     - gtop
     - gufw
     - hddtemp
+    - htop
     - kbackup
     - lm_sensors
     - lshw
