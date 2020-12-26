@@ -89,6 +89,32 @@
     - arcolinux-tweak-tool-git
     - arcolinux-xfce-git
     - xfce4-terminal
+- name: "Desktop: Cwm"
+  description: "Installs cwm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cwm
+    - arcolinux-cwm-git
+    - arcolinux-config-cwm-git
+    - arcolinux-cwm-dconf-git
+    - volumeicon
+    - sxhkd
+    - dmenu
+    - feh
+    - picom
+    - gmrun
+    - arcolinux-root-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-logout-git
+    - arcolinux-xfce-git
+    - xfce4-terminal
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - polybar
+    - arcolinux-polybar-git       
 - name: "Desktop: Deepin"
   description: "Installs deepin desktop"
   critical: false
