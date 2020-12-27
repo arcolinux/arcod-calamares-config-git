@@ -24,13 +24,7 @@ The examples are not exhaustive.
 
 */
 
-/*
 
-arcolinux blue 		#6790eb
-blue slider				#3499D8
-calamares orange 	#D35400
-
-*/
 /* ########## MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
@@ -66,13 +60,13 @@ QListWidget::item:alternate {
 }
 
 #view-button-back:hover {
-	color: #D35400;
+	color: #58B2D7;
 }
 #view-button-next:hover {
-	color: #D35400;
+	color: #58B2D7;
 }
 #view-button-cancel:hover {
-	color: #D35400;
+	color: #58B2D7;
 }
 
 #debugButton {
@@ -80,29 +74,29 @@ QListWidget::item:alternate {
 	color: #FFFFFF;
 }
 #debugButton:hover {
-	color: #D35400;
+	color: #58B2D7;
 }
 
 #aboutButton:hover {
-	color: #D35400;
+	color: #58B2D7;
 }
 #donateButton:hover {
-	color: #D35400;
+	color: #58B2D7;
 }
 #supportButton:hover {
-	color: #D35400;
+	color: #58B2D7;
 }
 #knownIssuesButton:hover {
-	color: #D35400;
+	color: #58B2D7;
 }
 #releaseNotesButton:hover {
-	color: #D35400;
+	color: #58B2D7;
 }
 
 /* ########## TOOLTIP ########## */
 
 QToolTip {
-	background-color: #D35400;
+	background-color: #58B2D7;
   font : 16px;
 	color: white;
 	padding: 3px;
@@ -120,13 +114,13 @@ QDialogButtonBox {
 /* ########## SCROLL BAR ########## */
 
 QScrollBar:vertical {
-     background: #353945;
+     background: #efefef;
      width: 20px;
      margin: 38px 0 20px 0;
 }
 
 QScrollBar::handle:vertical {
-     background: #D35400;
+     background: #58B2D7;
      max-height: 25px;
 }
 
@@ -153,37 +147,37 @@ QListView {
 }
 
 QListView::item:alternate {
-	color: #D35400;
+	color: #58B2D7;
 	color: white;
 }
 
 QListView::item:!alternate:selected:active {
-	background: #D35400;
+	background: #58B2D7;
 	color: white;
 }
 
 QListView::item:selected:active {
-	background: #D35400;
+	background: #58B2D7;
 	color: white;
 }
 
 QListView::item:selected:!active {
-	background: #D35400;
+	background: #58B2D7;
 	color: white;
 }
 
 QListView::item:hover {
-	background: #D35400;
+	background: #58B2D7;
 	color: white;
 }
 
 QListView#listLayout::item:!alternate:selected:active {
-	background: #D35400;
+	background: #58B2D7;
 	color: white;
 }
 
 QListView#listVariant::item:!alternate:selected:active {
-	background: #D35400;
+	background: #58B2D7;
 	color: white;
 }
 
@@ -319,7 +313,7 @@ QComboBox {
 }
 
 QComboBox::item:selected {
-	background: #D35400;
+	background: #58B2D7;
 	color: white;
 }
 
@@ -349,7 +343,7 @@ QTreeView::item {
 }
 
 QTreeView::item:selected {
-	background: #D35400;
+	background: #58B2D7;
 	font: bold;
 }
 
