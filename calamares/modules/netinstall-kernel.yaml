@@ -34,6 +34,7 @@
   packages:
     - linux
     - nvidia
+    - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
 - name: "Nvidia-lts with linux-lts kernel"
@@ -67,3 +68,14 @@
   selected: false
   packages:
     - amd-ucode
+- name: "Nvidia Related"
+  description: "Nvidia related applications"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - bumblebee
+    - disper
+    - nvidia-xrun
+    - optimus-manager
+    - optimus-manager-qt
