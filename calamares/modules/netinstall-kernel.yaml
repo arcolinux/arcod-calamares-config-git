@@ -38,7 +38,7 @@
   packages:
     - linux
     - linux-headers
-    - nvidia-dkms
+    - nvidia
     - nvidia-settings
     - nvidia-utils
 - name: "Nvidia-lts with linux-lts kernel"
