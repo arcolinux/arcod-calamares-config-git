@@ -1,31 +1,35 @@
-- name: "Linux kernel without any nvidia"
-  description: "Installs only the latest linux kernel (not the one from iso)"
+- name: "Linux kernel"
+  description: "Installs the latest linux kernel (not the one from the iso)"
   critical: false
   hidden: false
   selected: false
   packages:
     - linux
-- name: "Linux-lts kernel without any nvidia"
-  description: "Installs only the linux-lts kernel"
+    - linux-headers
+- name: "Linux-lts kernel"
+  description: "Installs the linux-lts kernel"
   critical: false
   hidden: false
   selected: false
   packages:
     - linux-lts
-- name: "Linux-hardened kernel without any nvidia"
-  description: "Installs only the linux-hardened kernel"
+    - linux-lts-headers
+- name: "Linux-hardened kernel"
+  description: "Installs the linux-hardened kernel"
   critical: false
   hidden: false
   selected: false
   packages:
     - linux-hardened
-- name: "Linux-zen kernel without any nvidia"
-  description: "Installs only the linux-zen kernel"
+    - linux-hardened-headers
+- name: "Linux-zen kernel"
+  description: "Installs the linux-zen kernel"
   critical: false
   hidden: false
   selected: false
   packages:
     - linux-zen
+    - linux-zen-headers
 - name: "Nvidia with linux kernel"
   description: "Installs nvidia and linux kernel - check Arch wiki nvidia"
   critical: false
@@ -33,7 +37,7 @@
   selected: false
   packages:
     - linux
-    - nvidia
+    - linux-headers
     - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
@@ -44,9 +48,32 @@
   selected: false
   packages:
     - linux-lts
+    - linux-lts-headers
     - nvidia-lts
     - nvidia-settings
     - nvidia-utils
+- name: "Nvidia-dkms with zen kernel"
+  description: "Installs nvidia and linux-zen kernel - check Arch wiki nvidia"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-zen
+    - linux-zen-headers
+    - nvidia-dkms
+    - nvidia-settings
+    - nvidia-utils
+- name: "Nvidia-dkms with linux-hardened kernel"
+  description: "Installs nvidia-dkms and linux-hardened kernel - check Arch wiki nvidia"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - linux-hardened
+    - linux-hardened-headers
+    - nvidia-dkms
+    - nvidia-settings
+    - nvidia-utils      
 - name: "Cuda toolkit"
   description: "Installs the Cuda Toolkit"
   critical: false
@@ -55,14 +82,14 @@
   packages:
     - cuda
 - name: "Intel-ucode"
-  description: "Installs intel-ucode - see Arch wiki microcode"
+  description: "Installs intel-ucode - check Arch wiki microcode"
   critical: false
   hidden: false
   selected: false
   packages:
     - intel-ucode
 - name: "Amd-ucode"
-  description: "Installs amd-ucode - see Arch wiki microcode"
+  description: "Installs amd-ucode - check Arch wiki microcode"
   critical: false
   hidden: false
   selected: false
