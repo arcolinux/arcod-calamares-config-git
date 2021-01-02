@@ -52,28 +52,6 @@
     - nvidia-lts
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-dkms with zen kernel"
-  description: "Installs nvidia and linux-zen kernel - check Arch wiki nvidia"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-zen
-    - linux-zen-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-dkms with linux-hardened kernel"
-  description: "Installs nvidia-dkms and linux-hardened kernel - check Arch wiki nvidia"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-hardened
-    - linux-hardened-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils      
 - name: "Cuda toolkit"
   description: "Installs the Cuda Toolkit"
   critical: false
