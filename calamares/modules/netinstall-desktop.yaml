@@ -13,14 +13,14 @@
     - arcolinux-awesome-git
     - arcolinux-awesome-dconf-git
     - arcolinux-config-awesome-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-terminal
 - name: "Desktop: Bspwm"
   description: "Installs bspwm desktop"
@@ -41,15 +41,15 @@
     - arcolinux-bspwm-git
     - arcolinux-bspwm-dconf-git
     - arcolinux-config-bspwm-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-terminal
 - name: "Desktop: Budgie"
   description: "Installs budgie desktop"
@@ -87,7 +87,6 @@
     - arcolinux-cinnamon-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - xfce4-terminal
 - name: "Desktop: Cwm"
   description: "Installs cwm desktop"
@@ -108,11 +107,12 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-logout-git
-    - arcolinux-xfce-git
-    - xfce4-terminal
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
+    - xfce4-terminal
     - polybar
     - arcolinux-polybar-git       
 - name: "Desktop: Deepin"
@@ -138,6 +138,8 @@
     - dmenu
     - feh
     - picom
+    - gsimplecal
+    - volumeicon
     - gmrun
     - arcolinux-dwm-git
     - arcolinux-dwm-slstatus-git
@@ -145,8 +147,11 @@
     - arcolinux-dwm-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - arcolinux-local-xfce4-git
     - arcolinux-xfce-git
     - xfce4-taskmanager
     - xfce4-screenshooter
@@ -154,11 +159,6 @@
     - xfce4-power-manager
     - xfce4-terminal
     - xfce4-settings
-    - gsimplecal
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
 - name: "Desktop: Gnome"
   description: "Installs gnome desktop"
   critical: false
@@ -192,15 +192,15 @@
     - arcolinux-config-herbstluftwm-git
     - arcolinux-herbstluftwm-git
     - arcolinux-herbstluftwm-dconf-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-terminal
 - name: "Desktop: i3"
   description: "Installs i3 desktop"
@@ -218,15 +218,15 @@
     - arcolinux-config-i3wm-git
     - arcolinux-i3wm-git
     - arcolinux-i3wm-dconf-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-terminal
 - name: "Desktop: Icewm"
   description: "Installs icewm desktop"
@@ -242,14 +242,14 @@
     - arcolinux-config-icewm-git
     - arcolinux-icewm-git
     - arcolinux-icewm-dconf-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-terminal
     - xfce4-power-manager
     - xfce4-settings
@@ -269,14 +269,14 @@
     - arcolinux-config-jwm-git
     - arcolinux-jwm-dconf-git
     - arcolinux-jwm-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-notifyd
     - xfce4-screenshooter
     - xfce4-taskmanager
@@ -300,10 +300,11 @@
     - arcolinux-lxqt-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-screenshooter
     - xfce4-taskmanager
     - xfce4-terminal
@@ -323,10 +324,6 @@
     - arcolinux-mate-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
     - xfce4-terminal
 - name: "Desktop: Openbox"
   description: "Installs openbox desktop"
@@ -354,7 +351,6 @@
     - yad
     - arcolinux-config-openbox-git
     - arcolinux-common-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-nitrogen-git
     - arcolinux-obmenu-generator-git
@@ -367,10 +363,11 @@
     - arcolinux-tint2-git
     - arcolinux-tint2-themes-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-screenshooter
     - xfce4-settings
     - xfce4-taskmanager
@@ -398,10 +395,6 @@
     - arcolinux-plasma-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
 - name: "Desktop: Qtile"
   description: "Installs qtile desktop"
   critical: false
@@ -416,16 +409,16 @@
     - picom
     - python-psutil
     - arcolinux-config-qtile-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-qtile-git
     - arcolinux-qtile-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-terminal
 - name: "Desktop: Spectrwm"
   description: "Installs spectrwm desktop"
@@ -440,16 +433,16 @@
     - gmrun
     - picom
     - arcolinux-config-spectrwm-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-spectrwm-git
     - arcolinux-spectrwm-dconf-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-terminal
     - sxhkd
     - sutils-git
@@ -473,7 +466,6 @@
     - arcolinux-config-ukui-git
     - arcolinux-ukui-dconf-git
     - arcolinux-ukui-git
-    - arcolinux-xfce-git
     - arcolinux-qt5-git
     - mate-desktop
     - mate-menus
@@ -483,6 +475,8 @@
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-terminal
     - gvfs
     - dmenu
@@ -524,15 +518,15 @@
     - xmonad-log
     - xmonad-utils
     - arcolinux-config-xmonad-git
-    - arcolinux-local-xfce4-git
     - arcolinux-logout-git
     - arcolinux-polybar-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-git
     - arcolinux-xmonad-dconf-git
     - arcolinux-xmonad-polybar-git
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+    - arcolinux-local-xfce4-git
+    - arcolinux-xfce-git
     - xfce4-terminal
