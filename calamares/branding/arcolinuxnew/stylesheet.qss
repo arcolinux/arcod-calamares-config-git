@@ -379,6 +379,9 @@ QHeaderView::section {
 
 /* ########## PROGRESS BAR ########## */
 
+QProgressBar {
+	text-align: center;
+}
 
 QProgressBar::chunk {
 	background-color: #58B2D7;

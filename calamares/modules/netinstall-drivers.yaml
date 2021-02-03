@@ -1,0 +1,79 @@
+- name: "Xf86-video-intel"
+  description: "Installs xf86-video-intel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xf86-video-intel
+- name: "Xf86-video-nouveau"
+  description: "Installs xf86-video-nouveau"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xf86-video-nouveau
+- name: "Xf86-video-amdgpu"
+  description: "Installs xf86-video-amdgpu"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xf86-video-amdgpu
+- name: "Xf86-video-ati"
+  description: "Installs xf86-video-ati"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xf86-video-ati
+- name: "Xf86-video-vesa"
+  description: "Installs xf86-video-vesa"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xf86-video-vesa
+- name: "Xf86-video-openchrome"
+  description: "Installs xf86-video-openchrome"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xf86-video-openchrome
+- name: "Nvidia for linux kernel"
+  description: "Installs nvidia for linux kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - nvidia
+    - nvidia-settings
+    - nvidia-utils
+- name: "Nvidia-lts for linux-lts kernel"
+  description: "Installs nvidia-lts for linux-lts kernel"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - nvidia-lts
+    - nvidia-settings
+    - nvidia-utils
+    - nvidia-dkms
+- name: "Cuda toolkit"
+  description: "Installs the Cuda Toolkit"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cuda
+- name: "Nvidia Related"
+  description: "Nvidia related applications"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - bumblebee
+    - disper
+    - nvidia-xrun
+    - optimus-manager
+    - optimus-manager-qt

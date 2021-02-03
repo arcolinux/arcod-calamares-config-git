@@ -30,57 +30,17 @@
   packages:
     - linux-zen
     - linux-zen-headers
-- name: "Nvidia with linux kernel"
-  description: "Installs nvidia and linux kernel - check Arch wiki nvidia"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux
-    - linux-headers
-    - nvidia
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-lts with linux-lts kernel"
-  description: "Installs nvidia-lts and linux-lts kernel - check Arch wiki nvidia"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-lts
-    - linux-lts-headers
-    - nvidia-lts
-    - nvidia-settings
-    - nvidia-utils
-- name: "Cuda toolkit"
-  description: "Installs the Cuda Toolkit"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - cuda
 - name: "Intel-ucode"
-  description: "Installs intel-ucode - check Arch wiki microcode"
+  description: "Installs intel-ucode"
   critical: false
   hidden: false
   selected: false
   packages:
     - intel-ucode
 - name: "Amd-ucode"
-  description: "Installs amd-ucode - check Arch wiki microcode"
+  description: "Installs amd-ucode"
   critical: false
   hidden: false
   selected: false
   packages:
     - amd-ucode
-- name: "Nvidia Related"
-  description: "Nvidia related applications"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - bumblebee
-    - disper
-    - nvidia-xrun
-    - optimus-manager
-    - optimus-manager-qt

@@ -5,8 +5,8 @@
   selected: false
   packages:
     - lightdm
-    - arcolinux-lightdm-gtk-greeter
-    - arcolinux-lightdm-gtk-greeter-settings
+    - lightdm-gtk-greeter
+    - lightdm-gtk-greeter-settings
     - arcolinux-wallpapers-git
 - name: "Login Manager: Sddm"
   description: "Installs sddm - user enables sddm manually"
