@@ -16,6 +16,9 @@
     - arcolinux-logout-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
+    - menulibre
+    - mugshot
+    - ristretto
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -491,12 +494,13 @@
     - xfce4-goodies
     - dmenu
     - gmrun
-    - arcolinux-config-xfce-git
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-local-xfce4-git
     - arcolinux-logout-git
+    - arcolinux-logout-themes-git
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
-    - arcolinux-xfce-dconf-git
     - arcolinux-xfce-git
 - name: "Desktop: Xmonad"
   description: "Installs xmonad desktop"
