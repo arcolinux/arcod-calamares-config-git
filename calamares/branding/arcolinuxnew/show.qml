@@ -35,7 +35,6 @@ Presentation
             id: background1
             source: "calamares-0.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -51,7 +50,6 @@ Presentation
             id: background2
             source: "calamares-2.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -66,7 +64,6 @@ Presentation
             id: background4
             source: "calamares-3.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -81,7 +78,6 @@ Presentation
             id: background5
             source: "calamares-4.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -96,7 +92,6 @@ Presentation
             id: background6
             source: "calamares-5.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -111,7 +106,6 @@ Presentation
             id: background7
             source: "calamares-6.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -126,7 +120,6 @@ Presentation
             id: background8
             source: "calamares-7.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -141,7 +134,6 @@ Presentation
             id: background9
             source: "calamares-8.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -156,7 +148,6 @@ Presentation
             id: background10
             source: "calamares-9.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -171,7 +162,6 @@ Presentation
             id: background11
             source: "calamares-10.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -186,7 +176,6 @@ Presentation
             id: background12
             source: "calamares-11.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -201,7 +190,6 @@ Presentation
             id: background13
             source: "calamares-12.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
@@ -216,7 +204,6 @@ Presentation
             id: background14
             source: "calamares-13.png"
             width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
