@@ -73,6 +73,13 @@
   selected: false
   packages:
     - onlyoffice-bin
+- name: "Openoffice"
+  description: "Openoffice"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - openoffice-bin
 - name: "Scribus"
   description: "Scribus"
   critical: false
