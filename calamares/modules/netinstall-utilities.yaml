@@ -16,6 +16,7 @@
     - evince
     - flatpak
     - glances
+    - grub-btrfs
     - google-earth-pro
     - grsync
     - gtop
@@ -41,6 +42,7 @@
     - sysprof
     - systemd-manager
     - timeshift
+    - timeshift-autosnap
     - vnstat
     - wireshark-qt
     - wttr
