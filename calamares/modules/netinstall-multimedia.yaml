@@ -5,6 +5,7 @@
   selected: false
   expanded: true
   packages:
+    - amarok
     - ardour
     - audacious
     - audacity
