@@ -26,6 +26,7 @@
     - kbackup
     - lm_sensors
     - lshw
+    - mullvad-vpn-bin
     - open-vm-tools
     - optimus-manager
     - meld
