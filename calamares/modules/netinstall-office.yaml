@@ -59,6 +59,13 @@
     - libreoffice-still
     - libreoffice-still-$LOCALE
     - hunspell-$LOCALE
+- name: "Ms Office Online"
+  description: "Microsoft Office Suite Online as a native application"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - ms-office-online  
 - name: "Moneydance"
   description: "Moneydance"
   critical: false
