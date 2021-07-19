@@ -230,3 +230,4 @@ slideshowAPI: 2
 uploadServer :
     type :    "fiche"
     url :     "http://termbin.com:9999"
+    sizeLimit : -1
