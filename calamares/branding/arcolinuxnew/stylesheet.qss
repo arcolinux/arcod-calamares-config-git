@@ -203,10 +203,6 @@ QLineEdit#textBoxUserPassword, QLineEdit#textBoxRootPassword {
 	font: 16px;
 }
 
-#mlistFlags {
-	alternatingRowColors: false;
-}
-
 /* ########## PAGE_USERSETUP ########## */
 
  #labelWhatIsYourName {
