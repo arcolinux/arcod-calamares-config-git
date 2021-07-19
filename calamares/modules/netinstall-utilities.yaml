@@ -1,3 +1,13 @@
+- name: "Utilities for Timeshift and Btrfs"
+  description: "Utility software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - grub-btrfs
+    - timeshift
+    - timeshift-autosnap
 - name: "Utilities"
   description: "Utility software"
   critical: false
@@ -6,18 +16,25 @@
   expanded: true
   packages:
     - albert
+    - alsi
     - archey3
-    - baobab
+    - auto-cpufreq
     - bashtop
+    - bauh
     - bleachbit
+    - caffeine
+    - caffeine-ng
     - catfish
+    - cpufetch-git
     - cpu-x
     - dmidecode
     - evince
     - flatpak
+    - galculator
+    - geekbench
     - glances
-    - grub-btrfs
     - google-earth-pro
+    - gotop-bin
     - grsync
     - gtop
     - gufw
@@ -27,24 +44,37 @@
     - lm_sensors
     - lshw
     - mullvad-vpn-bin
+    - nvtop
+    - nvtop-git
     - open-vm-tools
     - optimus-manager
-    - meld
     - octopi
     - pamac-aur
+    - parcellite
+    - pfetch
     - powertop
     - putty
+    - redshift
     - screenfetch
     - sigil
     - simple-scan
     - slimbookbattery
+    - slurm
     - snapd
+    - solaar
+    - speedtest-cli-git
+    - stacer
+    - stacer-bin
     - synapse
     - sysprof
     - systemd-manager
-    - timeshift
-    - timeshift-autosnap
+    - tuxboot
+    - tuxboot-git
+    - ufetch-git
     - vnstat
     - wireshark-qt
+    - workrave
     - wttr
+    - xlunch-git
+    - yin-yang-git
     - youtube-dl

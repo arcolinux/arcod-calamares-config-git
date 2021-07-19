@@ -8,9 +8,12 @@
     - amarok
     - ardour
     - audacious
+    - audacious-plugins
     - audacity
     - celluloid
+    - cava
     - clementine
+    - curseradio-git
     - deadbeef
     - elisa
     - gmusicbrowser
@@ -18,15 +21,18 @@
     - handbrake
     - hypnotix
     - juk
+    - kazam
     - kdenlive
     - kodi-x11
     - kodi
     - kodi-addons
+    - kwave
     - lollypop
     - lxmusic
     - lmms
     - obs-studio
     - openshot
+    - mkvtoolnix-gui
     - mpc
     - mpd
     - mpv
@@ -46,3 +52,4 @@
     - spotifywm-git
     - vlc
     - tauon-music-box
+    - youtube-dl

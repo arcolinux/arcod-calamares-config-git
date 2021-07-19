@@ -11,7 +11,7 @@
     - gpick
     - flameshot-git
     - liferea
-    - mediainfo
+    - mediainfo-gui
     - mcomix
     - nitrogen
     - nomacs
@@ -20,9 +20,6 @@
     - arcolinux-plank-themes-git
     - screenkey-git
     - variety
-    - arcolinux-variety-git
-    - vim-plugins
-    - xfburn
 - name: "Conky"
   description: "Conky and conky collection"
   critical: false
@@ -30,29 +27,10 @@
   selected: false
   expanded: true
   packages:
-    - conky-lua-archers
     - arcolinux-conky-collection-git
-    - yad
     - arcolinux-pipemenus-git
-- name: "Fonts"
-  description: "Fonts"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - adobe-source-sans-pro-fonts
-    - awesome-terminal-fonts
-    - terminus-font
-    - ttf-bitstream-vera
-    - ttf-droid
-    - ttf-fira-code
-    - ttf-font-awesome
-    - ttf-hack
-    - ttf-inconsolata
-    - ttf-liberation
-    - ttf-roboto
-    - ttf-ubuntu-font-family
+    - conky-lua-archers
+    - yad
 - name: "Git"
   description: "Git applications"
   critical: false
@@ -64,14 +42,6 @@
     - gitg
     - gitfiend
     - gitkraken
-- name: "Fun"
-  description: "Fun script from ArcoLinux"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - arcolinux-meta-fun
 - name: "Password Manager"
   description: "Password managers"
   critical: false
@@ -93,17 +63,6 @@
     - tor-browser
     - tor
     - privoxy
-- name: "Usb"
-  description: "Usb writing applications"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - etcher-bin
-    - imagewriter
-    - mintstick-git
-    - woeusb
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"
   critical: false
@@ -135,5 +94,7 @@
     - zsh
     - zsh-completions
     - zsh-syntax-highlighting
-    - oh-my-zsh-git
+    - zsh-theme-powerlevel10k-git
     - arcolinux-zsh-git
+    - oh-my-zsh-git
+    - oh-my-zsh-powerline-theme-git
