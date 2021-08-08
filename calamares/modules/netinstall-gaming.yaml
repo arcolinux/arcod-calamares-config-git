@@ -5,26 +5,46 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-meta-steam
     - armagetronad
     - astromenace
     - chromium-bsu
     - extremetuxracer
     - freeciv
-    - gamehub-bin
     - gnome-chess
     - gnuchess
     - hedgewars
-    - itch
     - kbreakout
     - knights
-    - lutris
     - minecraft-launcher
     - neverball
-    - playonlinux
     - sauerbraten
     - sauerbraten-data
-    - steam-buddy
-    - steam-tweaks
+    - supertux
+    - supertuxkart
+    - warsow
+    - wesnoth
     - xonotic
     - xonotic-data
+- name: "Game utilities"
+  description: "Game utilities"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-meta-steam
+    - gamehub-bin
+    - gamemode
+    - goverlay-bin
+    - heroic-games-launcher-bin
+    - itch
+    - legendary
+    - lutris
+    - mangohud
+    - minigalaxy
+    - playonlinux
+    - rare
+    - replay-sorcery
+    - steam-buddy
+    - steam-tweaks
+    - vkbasalt
