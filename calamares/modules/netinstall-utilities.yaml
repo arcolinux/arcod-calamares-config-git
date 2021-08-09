@@ -65,6 +65,7 @@
     - speedtest-cli-git
     - stacer
     - stacer-bin
+    - s-tui
     - synapse
     - sysprof
     - systemd-manager
@@ -77,4 +78,3 @@
     - wttr
     - xlunch-git
     - yin-yang-git
-    - youtube-dl
