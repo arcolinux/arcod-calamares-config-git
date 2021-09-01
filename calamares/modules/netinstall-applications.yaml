@@ -84,6 +84,15 @@
     - virtualbox-host-dkms
     - linux-lts-headers
     - linux-lts
+- name: "Vmware"
+  description: "Installs vmware software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - vmware-workstation
+    - vmware-keymaps
 - name: "Zsh"
   description: "Zsh"
   critical: false

@@ -6,8 +6,46 @@
   expanded: true
   packages:
     - grub-btrfs
+    - rollback-git
+    - snap-sync
+    - snap-pac
+    - snapper
     - timeshift
     - timeshift-autosnap
+- name: "Utilities for Android"
+  description: "Utility software android"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - airdroid-nativefier
+    - android-tools
+    - android-file-transfer
+    - android-sdk-platform-tools
+    - droidcam
+    - qtscrcpy
+    - scrcpy
+- name: "Utilities for IOS"
+  description: "Utility software ios"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - ifuse
+    - shairport-sync
+- name: "Utilities for benchmarking"
+  description: "Utility software benchmarking"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - blender-benchmark
+    - geekbench
+    - gputest
+    - phoronix-test-suite 
 - name: "Utilities"
   description: "Utility software"
   critical: false
@@ -17,6 +55,7 @@
   packages:
     - albert
     - alsi
+    - appimagelauncher
     - archey3
     - auto-cpufreq
     - bauh
@@ -31,7 +70,6 @@
     - evince
     - flatpak
     - galculator
-    - geekbench
     - glances
     - google-earth-pro
     - gotop-bin
