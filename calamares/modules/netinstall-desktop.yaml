@@ -123,7 +123,6 @@
     - arcolinux-root-git
     - arcolinux-tweak-tool-git
     - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
     - cutefish
 - name: "Desktop: Cwm"
   description: "Installs cwm desktop"
