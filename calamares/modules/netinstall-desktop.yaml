@@ -111,6 +111,20 @@
     - mintlocale
     - nemo-fileroller
     - xfce4-terminal
+- name: "Desktop: Cutefish"
+  description: "Installs cutefish desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-cutefish-dconf-git
+    - arcolinux-cutefish-git
+    - arcolinux-config-all-desktops-git
+    - arcolinux-root-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-wallpapers-git
+    - arcolinux-xfce-git
+    - cutefish
 - name: "Desktop: Cwm"
   description: "Installs cwm desktop"
   critical: false
