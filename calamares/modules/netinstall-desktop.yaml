@@ -592,6 +592,7 @@
     - picom
     - polkit-gnome
     - python-psutil
+    - python-setuptools
     - qtile
     - rofi
     - thunar
