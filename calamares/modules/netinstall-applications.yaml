@@ -19,6 +19,7 @@
     - plank
     - arcolinux-plank-themes-git
     - screenkey-git
+    - vim-plugins
     - variety
 - name: "Conky"
   description: "Conky and conky collection"
@@ -91,6 +92,7 @@
   selected: false
   expanded: false
   packages:
+    - open-vm-tools
     - vmware-workstation
     - vmware-keymaps
 - name: "Zsh"

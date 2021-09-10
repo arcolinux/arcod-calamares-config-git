@@ -5,25 +5,31 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-teamviewer
-    - discord
     - element-desktop
+    - discord
     - google-chat-linux-bin
-    - hexchat    
-    - krdc
-    - mailspring
+    - hexchat
     - neochat
-    - nomachine
-    - pidgin    
+    - pidgin
     - qtox
-    - remmina
     - skypeforlinux-stable-bin
     - slack-desktop
     - teams
     - telegram-desktop
-    - tigervnc
     - tweetdeck-desktop
     - viber
-    - whatsapp-nativefier    
+    - whatsapp-nativefier
     - wire-desktop
     - zoom
+- name: "Connect Remotely"
+  description: "Applications to connect to other systems"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-teamviewer
+    - krdc
+    - nomachine
+    - remmina
+    - tigervnc

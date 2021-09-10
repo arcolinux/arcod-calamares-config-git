@@ -5,13 +5,6 @@
   selected: false
   packages:
     - abiword
-- name: "Calibre"
-  description: "Calibre"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - calibre    
 - name: "Calligra"
   description: "Office Suite"
   critical: false
@@ -20,13 +13,21 @@
   packages:
     - calligra
     - calligra-plan
+- name: "Epub"
+  description: "Epub"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - calibre
+    - sigil
 - name: "Focuswriter"
   description: "Focuswriter"
   critical: false
   hidden: false
   selected: false
   packages:
-    - focuswriter    
+    - focuswriter
 - name: "Ghostwriter"
   description: "Ghostwriter"
   critical: false
@@ -40,7 +41,7 @@
   hidden: false
   selected: false
   packages:
-    - gnumeric    
+    - gnumeric
 - name: "Libre Office Fresh"
   description: "Installs libre office fresh - feature branch - conflicts with still"
   critical: false
@@ -65,14 +66,14 @@
   hidden: false
   selected: false
   packages:
-    - ms-office-online  
+    - ms-office-online
 - name: "Moneydance"
   description: "Moneydance"
   critical: false
   hidden: false
   selected: false
   packages:
-    - moneydance    
+    - moneydance
 - name: "Onlyoffice"
   description: "Onlyoffice"
   critical: false
@@ -87,6 +88,19 @@
   selected: false
   packages:
     - openoffice-bin
+- name: "PDF applications"
+  description: "PDF applications"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - atril
+    - epdfview
+    - evince
+    - okular
+    - pdfarranger
+    - xpdf
+    - xreader
 - name: "Scribus"
   description: "Scribus"
   critical: false

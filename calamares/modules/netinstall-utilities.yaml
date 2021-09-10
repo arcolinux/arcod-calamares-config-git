@@ -45,7 +45,53 @@
     - blender-benchmark
     - geekbench
     - gputest
-    - phoronix-test-suite 
+    - phoronix-test-suite
+- name: "Application installers or launchers"
+  description: "Application installers or launchers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - albert
+    - appimagelauncher
+    - bauh
+    - flatpak
+    - octopi
+    - pamac-all
+    - snapd
+    - synapse
+    - ulauncher
+    - xlunch-git
+- name: "Utilities for hardware discovery"
+  description: "Utility software for hardware discovery"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - alsi
+    - archey3
+    - bpytop
+    - cpufetch-git
+    - cpu-x
+    - glances
+    - gotop-bin
+    - gtop
+    - hddtemp
+    - htop
+    - lm_sensors
+    - lshw
+    - nvtop
+    - nvtop-git
+    - pfetch
+    - powertop
+    - screenfetch
+    - slurm
+    - speedtest-cli-git
+    - s-tui
+    - sysprof
+    - ufetch-git
 - name: "Utilities"
   description: "Utility software"
   critical: false
@@ -53,68 +99,31 @@
   selected: false
   expanded: true
   packages:
-    - albert
-    - alsi
-    - appimagelauncher
-    - archey3
     - auto-cpufreq
-    - bauh
     - bleachbit
-    - bpytop
     - caffeine
     - caffeine-ng
     - catfish
-    - cpufetch-git
-    - cpu-x
-    - dmidecode
-    - evince
-    - flatpak
     - galculator
-    - glances
     - google-earth-pro
-    - gotop-bin
     - grsync
-    - gtop
     - gufw
-    - hddtemp
-    - htop
     - kbackup
-    - lm_sensors
-    - lshw
     - mullvad-vpn-bin
-    - nvtop
-    - nvtop-git
-    - open-vm-tools
     - optimus-manager
-    - octopi
-    - pamac-all
     - parcellite
-    - pfetch
-    - powerpill
-    - powertop
     - putty
     - redshift
-    - screenfetch
-    - sigil
     - simple-scan
     - slimbookbattery
-    - slurm
-    - snapd
     - solaar
-    - speedtest-cli-git
     - stacer
     - stacer-bin
-    - s-tui
-    - synapse
-    - sysprof
     - systemd-manager
     - tuxboot
     - tuxboot-git
-    - ufetch-git
-    - ulauncher
     - vnstat
     - wireshark-qt
     - workrave
     - wttr
-    - xlunch-git
     - yin-yang-git

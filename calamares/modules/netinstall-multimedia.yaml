@@ -1,5 +1,5 @@
-- name: "Multimedia"
-  description: "Audio and video software"
+- name: "Audio Software"
+  description: "Primarily Audio software"
   critical: false
   hidden: false
   selected: false
@@ -16,9 +16,30 @@
     - curseradio-git
     - deadbeef
     - elisa
+    - gmusicbrowser
+    - juk
+    - kwave
+    - lollypop
+    - lxmusic
+    - lmms
+    - ncmpcpp
+    - pragha
+    - radiotray
+    - rhythmbox
+    - sayonara-player
+    - soundconverter
+    - spotify
+    - spotifywm-git
+    - tauon-music-box
+- name: "Video Software"
+  description: "Primarily Video software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
     - filebot
     - freetube-bin
-    - gmusicbrowser
     - guvcview
     - handbrake
     - hypnotix
@@ -28,10 +49,6 @@
     - kodi-x11
     - kodi
     - kodi-addons
-    - kwave
-    - lollypop
-    - lxmusic
-    - lmms
     - obs-studio
     - openshot
     - makemkv
@@ -39,21 +56,14 @@
     - mpc
     - mpd
     - mpv
-    - ncmpcpp
     - peek
     - pitivi
     - plex-media-player
     - plex-media-server
-    - pragha
-    - radiotray
-    - rhythmbox
-    - sayonara-player
     - simplescreenrecorder
-    - soundconverter
     - smplayer
     - spotify
     - spotifywm-git
     - vlc
-    - tauon-music-box
     - youtube-dl
     - youtube-dl-gui-git

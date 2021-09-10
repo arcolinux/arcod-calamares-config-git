@@ -1,11 +1,10 @@
-- name: "ArcoLinux Tools"
-  description: "Software from ArcoLinux"
+- name: "ArcoLinux Meta Packages"
+  description: "ArcoLinux meta packages"
   critical: false
   hidden: false
   selected: false
   expanded: true
   packages:
-    - arcolinux-candy-beauty-git
     - arcolinux-meta-fun
     - arcolinux-meta-log
     - arcolinux-meta-samba
@@ -13,6 +12,14 @@
     - arcolinux-meta-steam
     - arcolinux-meta-utilities
     - arcolinux-meta-wine
+- name: "ArcoLinux Packages"
+  description: "Interesting ArcoLinux Packages"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-candy-beauty-git
     - arcolinux-teamviewer
     - arcolinux-paleofetch-git
     - arcolinux-reflector-simple-git
