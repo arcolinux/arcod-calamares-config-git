@@ -410,6 +410,47 @@
     - xfce4-screenshooter
     - xfce4-taskmanager
     - xfce4-terminal
+- name: "Desktop: Leftwm"
+  description: "Installs leftwm desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-leftwm-git
+    - arcolinux-candy-beauty-git
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
+    - arcolinux-gtk3-arcolinux-candy-beauty-git
+    - arcolinux-local-xfce4-git
+    - arcolinux-polybar-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-root-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
+    - arcolinux-xfce-git
+    - autorandr
+    - dmenu
+    - feh
+    - leftwm
+    - leftwm-theme-git
+    - nerd-fonts-source-code-pro
+    - nitrogen
+    - picom
+    - polybar
+    - polkit-gnome
+    - rofi
+    - sxhkd
+    - thunar
+    - thunar-archive-plugin
+    - thunar-media-tags-plugin
+    - thunar-volman
+    - volumeicon
+    - xfce4-notifyd
+    - xfce4-screenshooter
+    - xfce4-taskmanager    
+    - xfce4-terminal
 - name: "Desktop: Lxqt"
   description: "Installs lxqt desktop"
   critical: false
