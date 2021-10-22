@@ -21,6 +21,13 @@
   packages:
     - calibre
     - sigil
+- name: "Freeoffice"
+  description: "Freeoffice"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - freeoffice
 - name: "Focuswriter"
   description: "Focuswriter"
   critical: false
