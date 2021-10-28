@@ -471,11 +471,16 @@
     - polybar
     - polkit-gnome
     - rofi
+    - rofi-theme-fonts
     - sxhkd
     - thunar
     - thunar-archive-plugin
     - thunar-media-tags-plugin
     - thunar-volman
+    - ttf-fantasque-sans-mono
+    - ttf-iosevka-nerd
+    - ttf-material-design-iconic-font
+    - ttf-meslo-nerd-font-powerlevel10k
     - volumeicon
     - xfce4-notifyd
     - xfce4-screenshooter
