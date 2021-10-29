@@ -1,9 +1,10 @@
 - name: "Login Manager: Sddm"
-  description: "Installed by default - choose more themes"
+  description: "Installs SDDM - choose your theme"
   critical: false
   hidden: false
   selected: false
   packages:
+    - sddm
     - arcolinux-sddm-chili-git
     - arcolinux-sddm-fralonra-git
     - arcolinux-sddm-futuristic-git
