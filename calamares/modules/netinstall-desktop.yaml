@@ -452,6 +452,7 @@
     - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-arcolinux-candy-beauty-git
     - arcolinux-local-xfce4-git
+    - arcolinux-meta-logout    
     - arcolinux-polybar-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
