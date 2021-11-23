@@ -60,9 +60,11 @@
   packages:
     - bumblebee
     - disper
+    - gwe
     - nvidia
     - nvidia-lts
     - nvidia-prime
     - nvidia-xrun
+    - nvtop
     - optimus-manager
     - optimus-manager-qt

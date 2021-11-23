@@ -63,6 +63,15 @@
     - synapse
     - ulauncher
     - xlunch-git
+- name: "Power Management"
+  description: "Power Management"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - upower
+    - system76-power
 - name: "Utilities for hardware discovery"
   description: "Utility software for hardware discovery"
   critical: false
