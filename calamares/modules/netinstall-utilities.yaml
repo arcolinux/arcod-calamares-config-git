@@ -6,10 +6,10 @@
   expanded: true
   packages:
     - grub-btrfs
-    - rollback-git
     - snap-sync
     - snap-pac
     - snapper
+    - snapper-rollback
     - timeshift
     - timeshift-autosnap
 - name: "Utilities for Android"
