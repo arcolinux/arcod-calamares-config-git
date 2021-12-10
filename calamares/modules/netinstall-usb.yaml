@@ -12,3 +12,11 @@
     - ventoy-bin
     - woeusb
     - xfburn
+- name: "Printing Utilities"
+  description: "Printing software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - hplip   
