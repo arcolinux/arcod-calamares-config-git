@@ -19,4 +19,15 @@
   selected: false
   expanded: true
   packages:
-    - hplip   
+    - hplip
+- name: "Accessibility Utilities"
+  description: "Accessibility Utility software"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - brltty
+    - espeak-ng
+    - mousetweaks
+    - orca  
