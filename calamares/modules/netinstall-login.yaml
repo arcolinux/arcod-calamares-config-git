@@ -25,6 +25,7 @@
     - lightdm-gtk-greeter
     - lightdm-gtk-greeter-settings
     - arcolinux-wallpapers-git
+    - lightdm-slick-greeter
 - name: "Login Manager: Gdm"
   description: "Installs gdm"
   critical: false
@@ -40,4 +41,12 @@
   selected: false
   packages:
     - lxdm
+    - arcolinux-wallpapers-git
+- name: "Login Manager: ly"
+  description: "Installs ly"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - ly
     - arcolinux-wallpapers-git

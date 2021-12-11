@@ -1,54 +1,10 @@
-- name: "Nvidia-dkms for linux kernel - installed by default"
-  description: "Installs nvidia-dkms for linux kernel"
-  critical: false
-  hidden: false
-  selected: false
-  immutable: false
-  expanded: false
-  packages:
-    - linux
-    - linux-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-dkms for linux-lts kernel"
-  description: "Installs nvidia-dkms for linux-lts kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-lts
-    - linux-lts-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-dkms for linux-zen kernel"
-  description: "Installs nvidia-dkms for linux-zen kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-zen
-    - linux-zen-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-dkms for linux-hardened kernel"
-  description: "Installs nvidia-dkms for linux-hardened kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-hardened
-    - linux-hardened-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils       
 - name: "Xf86-video-intel"
   description: "Installs xf86-video-intel"
   critical: false
   hidden: false
   selected: false
+  immutable: false
+  expanded: false
   packages:
     - xf86-video-intel
 - name: "Xf86-video-nouveau"
@@ -56,6 +12,8 @@
   critical: false
   hidden: false
   selected: false
+  immutable: false
+  expanded: false
   packages:
     - xf86-video-nouveau
 - name: "Xf86-video-amdgpu"
@@ -63,6 +21,8 @@
   critical: false
   hidden: false
   selected: false
+  immutable: false
+  expanded: false
   packages:
     - xf86-video-amdgpu
 - name: "Xf86-video-ati"
@@ -70,6 +30,8 @@
   critical: false
   hidden: false
   selected: false
+  immutable: false
+  expanded: false
   packages:
     - xf86-video-ati
 - name: "Xf86-video-vesa"
@@ -93,17 +55,3 @@
   selected: false
   packages:
     - cuda
-- name: "Nvidia Related"
-  description: "Nvidia related applications"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - bumblebee
-    - disper
-    - nvidia
-    - nvidia-lts
-    - nvidia-prime
-    - nvidia-xrun
-    - optimus-manager
-    - optimus-manager-qt
