@@ -60,6 +60,7 @@
     - pitivi
     - plex-media-player
     - plex-media-server
+    - qtwebflix-git
     - simplescreenrecorder
     - smplayer
     - spotify
@@ -67,3 +68,4 @@
     - vlc
     - youtube-dl
     - youtube-dl-gui-git
+    - yt-dlp
