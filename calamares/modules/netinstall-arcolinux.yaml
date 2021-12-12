@@ -5,6 +5,7 @@
   selected: false
   expanded: true
   packages:
+    - arcolinux-asian-fonts
     - arcolinux-meta-fun
     - arcolinux-meta-log
     - arcolinux-meta-samba
@@ -12,7 +13,18 @@
     - arcolinux-meta-steam
     - arcolinux-meta-utilities
     - arcolinux-meta-wine
-- name: "ArcoLinux Packages"
+- name: "ArcoLinux Applications"
+  description: "Interesting ArcoLinux Packages"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-teamviewer
+    - arcolinux-reflector-simple-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-tellme-git
+- name: "ArcoLinux Theming"
   description: "Interesting ArcoLinux Packages"
   critical: false
   hidden: false
@@ -20,7 +32,39 @@
   expanded: true
   packages:
     - arcolinux-candy-beauty-git
-    - arcolinux-teamviewer
+    - arcolinux-arc-kde
+    - arcolinux-arc-themes-2021-creative-git
+    - arcolinux-arc-themes-2021-git
+    - arcolinux-arc-themes-2021-sky-git
+    - arcolinux-mint-y-icons-git
     - arcolinux-paleofetch-git
-    - arcolinux-reflector-simple-git
-    - arcolinux-tellme-git
+    - arcolinux-plank-git
+    - arcolinux-plank-themes-git
+- name: "ArcoLinux Wallpapers"
+  description: "ArcoLinux Wallpapers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-sddm-backgrounds-git
+    - arcolinux-wallpapers-git
+    - arcolinux-wallpapers-candy-git
+    - arcolinux-wallpapers-dual-git
+- name: "ArcoLinux Sddm themes"
+  description: "ArcoLinux Sddm themes"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - arcolinux-sddm-backgrounds-git
+    - arcolinux-sddm-chili-git
+    - arcolinux-sddm-fralonra-git
+    - arcolinux-sddm-futuristic-git
+    - arcolinux-sddm-materia-git
+    - arcolinux-sddm-redrock-git
+    - arcolinux-sddm-simplicity-git    
+    - arcolinux-sddm-slice-git
+    - arcolinux-sddm-sugar-candy-git
+    - arcolinux-sddm-urbanlifestyle-git
