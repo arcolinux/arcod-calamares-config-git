@@ -42,7 +42,7 @@
   packages:
     - lxdm
     - arcolinux-wallpapers-git
-- name: "Login Manager: ly"
+- name: "Login Manager: Ly"
   description: "Installs ly"
   critical: false
   hidden: false
