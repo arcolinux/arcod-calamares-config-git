@@ -14,6 +14,8 @@
     - materia-kde
     - numix-gtk-theme-git
     - openbox-themes-pambudi-git
+    - sweet-theme-git
+    - sweet-gtk-theme-dark
 - name: "Icons"
   description: "Icons"
   critical: false

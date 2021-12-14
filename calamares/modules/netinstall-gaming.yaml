@@ -32,7 +32,9 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-meta-steam
+    - arcolinux-meta-steam-amd
+    - arcolinux-meta-steam-intel
+    - arcolinux-meta-steam-nvidia
     - gamehub-bin
     - gamemode
     - goverlay-bin

@@ -10,7 +10,9 @@
     - arcolinux-meta-log
     - arcolinux-meta-samba
     - arcolinux-meta-sddm-themes
-    - arcolinux-meta-steam
+    - arcolinux-meta-steam-amd
+    - arcolinux-meta-steam-intel
+    - arcolinux-meta-steam-nvidia
     - arcolinux-meta-utilities
     - arcolinux-meta-wine
 - name: "ArcoLinux Applications"
