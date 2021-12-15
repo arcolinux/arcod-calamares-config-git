@@ -465,7 +465,7 @@
     - autorandr
     - dmenu
     - feh
-    - leftwm
+    - leftwm-dev-git
     - leftwm-theme-git
     - nerd-fonts-source-code-pro
     - nitrogen
