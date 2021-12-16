@@ -59,6 +59,7 @@
   expanded: false
   packages:
     - bumblebee
+    - cuda
     - disper
     - gwe
     - nvidia

@@ -48,10 +48,3 @@
   selected: false
   packages:
     - xf86-video-openchrome
-- name: "Cuda toolkit"
-  description: "Installs the Cuda Toolkit"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - cuda
