@@ -744,6 +744,38 @@
     - thunar-volman
     - ukui
     - xfce4-terminal
+- name: "Desktop: Wmderland"
+  description: "Installs wmderland desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-config-all-desktops-git
+    - arcolinux-gtk3-sardi-arc-git
+    - arcolinux-wmderland-git
+    - arcolinux-local-xfce4-git
+    - arcolinux-meta-logout
+    - arcolinux-polybar-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-root-git
+    - arcolinux-tweak-tool-git
+    - arcolinux-volumeicon-git
+    - arcolinux-wallpapers-git
+    - arcolinux-xfce-git
+    - dmenu
+    - feh
+    - wmderland-git
+    - picom
+    - polkit-gnome
+    - polybar
+    - rofi
+    - sxhkd
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - volumeicon
+    - xfce4-terminal
 - name: "Desktop: Xfce4"
   description: "Installs xfce4 desktop"
   critical: false
