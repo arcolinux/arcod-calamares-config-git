@@ -5,6 +5,7 @@
   selected: false
   expanded: true
   packages:
+    - aisleriot    
     - armagetronad
     - astromenace
     - chromium-bsu
@@ -15,6 +16,7 @@
     - hedgewars
     - kbreakout
     - knights
+    - mari0
     - minecraft-launcher
     - neverball
     - sauerbraten

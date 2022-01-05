@@ -29,5 +29,7 @@
   packages:
     - brltty
     - espeak-ng
+    - florence    
     - mousetweaks
-    - orca  
+    - onboard
+    - orca
