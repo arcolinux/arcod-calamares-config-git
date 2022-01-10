@@ -130,6 +130,7 @@
     - caffeine
     - caffeine-ng
     - catfish
+    - deja-dup
     - fancontrol-gui-git
     - gammy
     - galculator
