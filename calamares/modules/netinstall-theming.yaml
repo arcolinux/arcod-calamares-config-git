@@ -8,13 +8,22 @@
     - adapta-gtk-theme
     - arcolinux-arc-kde
     - arcolinux-arc-themes-git
+    - arcolinux-sweet-mars-git
     - ayu-theme
     - breeze
     - graphite-gtk-theme-git
+    - kripton-theme-git
+    - kvantum-theme-materia
+    - kvantum-theme-qogir-git
     - materia-gtk-theme
     - materia-kde
     - numix-gtk-theme-git
     - openbox-themes-pambudi-git
+    - orchis-kde-theme-git
+    - orchis-theme-git
+    - qogir-gtk-theme-git
+    - qogir-kde-theme-git
+    - sweet-kde-theme-mars-git
     - sweet-theme-git
     - sweet-gtk-theme-dark
 - name: "Icons"
@@ -35,6 +44,7 @@
     - numix-circle-icon-theme-git
     - paper-icon-theme
     - papirus-icon-theme
+    - qogir-icon-theme
     - surfn-mint-y-icons-git
     - zafiro-icon-theme
 - name: "Cursors"
@@ -46,6 +56,7 @@
   packages:
     - capitaine-cursors
     - oxy-neon
+    - sweet-cursor-theme-git
     - xcursor-arch-cursor-complete
     - xcursor-breeze
     - xcursor-comix
