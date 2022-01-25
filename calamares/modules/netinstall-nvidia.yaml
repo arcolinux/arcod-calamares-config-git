@@ -61,6 +61,7 @@
     - bumblebee
     - cuda
     - disper
+    - envycontrol
     - gwe
     - nvidia
     - nvidia-lts
