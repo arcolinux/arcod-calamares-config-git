@@ -96,6 +96,7 @@
   packages:
     - alsi
     - archey3
+    - bottom
     - bpytop
     - cpufetch-git
     - cpu-x
