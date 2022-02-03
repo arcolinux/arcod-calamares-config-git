@@ -1,17 +1,27 @@
 - name: "Utilities for Timeshift and Btrfs"
-  description: "Utility software"
+  description: "Utility software - some conflict with snapper"
   critical: false
   hidden: false
   selected: false
   expanded: true
   packages:
     - grub-btrfs
-    - snap-sync
-    - snap-pac
-    - snapper
-    - snapper-rollback
     - timeshift
     - timeshift-autosnap
+- name: "Utilities for Snapper and Btrfs"
+  description: "Utility software - some conflict with timeshift"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - snap-pac
+    - snap-pac-grub
+    - snap-sync
+    - snapper
+    - snapper-gui-git
+    - snapper-rollback
+    - snapper-support
 - name: "Utilities for Android"
   description: "Utility software android"
   critical: false
@@ -128,6 +138,7 @@
   packages:
     - auto-cpufreq
     - bleachbit
+    - btrbk
     - caffeine
     - caffeine-ng
     - catfish
