@@ -15,6 +15,7 @@
   selected: false
   expanded: true
   packages:
+    - btrfs-assistant
     - snap-pac
     - snap-pac-grub
     - snap-sync
