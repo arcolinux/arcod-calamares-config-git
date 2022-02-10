@@ -1,5 +1,5 @@
 - name: "Utilities for Timeshift and Btrfs"
-  description: "Utility software - some conflict with snapper"
+  description: "Utility software"
   critical: false
   hidden: false
   selected: false
@@ -9,19 +9,17 @@
     - timeshift
     - timeshift-autosnap
 - name: "Utilities for Snapper and Btrfs"
-  description: "Utility software - some conflict with timeshift"
+  description: "Utility software"
   critical: false
   hidden: false
   selected: false
   expanded: true
   packages:
     - btrfs-assistant
+    - grub-btrfs
     - snap-pac
-    - snap-pac-grub
-    - snap-sync
     - snapper
     - snapper-gui-git
-    - snapper-rollback
     - snapper-support
 - name: "Utilities for Android"
   description: "Utility software android"
