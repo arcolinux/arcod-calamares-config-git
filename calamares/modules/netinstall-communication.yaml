@@ -9,6 +9,7 @@
     - discord
     - google-chat-linux-bin
     - hexchat
+    - jitsi-meet-desktop-bin
     - mumble
     - neochat
     - pidgin
@@ -33,5 +34,7 @@
     - arcolinux-teamviewer
     - krdc
     - nomachine
+    - realvnc-vnc-server
+    - realvnc-vnc-viewer
     - remmina
     - tigervnc

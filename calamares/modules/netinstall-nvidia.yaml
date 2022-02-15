@@ -63,6 +63,7 @@
     - disper
     - envycontrol
     - gwe
+    - nvflash
     - nvidia
     - nvidia-lts
     - nvidia-prime

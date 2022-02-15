@@ -33,6 +33,8 @@
     - aria2
     - deluge
     - filezilla
+    - gdown
+    - jdownloader2
     - ktorrent
     - qbittorrent
     - transmission-gtk

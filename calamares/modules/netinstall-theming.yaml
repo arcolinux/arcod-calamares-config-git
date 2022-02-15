@@ -15,6 +15,8 @@
     - kripton-theme-git
     - kvantum-theme-materia
     - kvantum-theme-qogir-git
+    - layan-gtk-theme-git
+    - layan-kde-git
     - materia-gtk-theme
     - materia-kde
     - numix-gtk-theme-git
@@ -39,6 +41,7 @@
     - faba-icon-theme-git
     - faba-mono-icons-git
     - halo-icons-git
+    - layan-cursor-theme-git
     - moka-icon-theme-git
     - numix-circle-arc-icons-git
     - numix-circle-icon-theme-git

@@ -35,6 +35,7 @@
     - droidcam
     - qtscrcpy
     - scrcpy
+    - waydroid
 - name: "Utilities for IOS"
   description: "Utility software ios"
   critical: false
@@ -95,6 +96,7 @@
   packages:
     - acpilight
     - brightnessctl
+    - gummy
     - light
 - name: "Utilities for hardware discovery"
   description: "Utility software for hardware discovery"
@@ -168,6 +170,8 @@
     - tuxboot
     - tuxboot-git
     - vnstat
+    - wacom-utility
+    - wacom-settings-git
     - wireshark-qt
     - workrave
     - wttr

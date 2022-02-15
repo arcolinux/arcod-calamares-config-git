@@ -24,6 +24,8 @@
     - lightdm
     - lightdm-gtk-greeter
     - lightdm-gtk-greeter-settings
+    - lightdm-webkit-theme-aether
+    - lightdm-webkit2-theme-reactive
     - arcolinux-wallpapers-git
     - lightdm-slick-greeter
 - name: "Login Manager: Gdm"
