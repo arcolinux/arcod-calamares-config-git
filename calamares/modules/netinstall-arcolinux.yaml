@@ -5,7 +5,7 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-asian-fonts
+    - arcolinux-meta-asian-fonts
     - arcolinux-meta-fun
     - arcolinux-meta-log
     - arcolinux-meta-samba
