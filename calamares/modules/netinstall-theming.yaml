@@ -41,7 +41,6 @@
     - faba-icon-theme-git
     - faba-mono-icons-git
     - halo-icons-git
-    - layan-cursor-theme-git
     - moka-icon-theme-git
     - numix-circle-arc-icons-git
     - numix-circle-icon-theme-git
@@ -49,6 +48,7 @@
     - papirus-icon-theme
     - qogir-icon-theme
     - surfn-mint-y-icons-git
+    - tela-circle-icon-theme-git
     - zafiro-icon-theme
 - name: "Cursors"
   description: "Cursors"
@@ -58,6 +58,7 @@
   expanded: true
   packages:
     - capitaine-cursors
+    - layan-cursor-theme-git
     - oxy-neon
     - sweet-cursor-theme-git
     - xcursor-arch-cursor-complete

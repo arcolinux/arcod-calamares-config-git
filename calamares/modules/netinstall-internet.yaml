@@ -33,9 +33,11 @@
     - aria2
     - deluge
     - filezilla
+    - fragments
     - gdown
     - jdownloader2
     - ktorrent
+    - persepolis
     - qbittorrent
     - transmission-gtk
     - xdman
