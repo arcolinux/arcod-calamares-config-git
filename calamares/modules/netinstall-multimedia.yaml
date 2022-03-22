@@ -5,11 +5,11 @@
   selected: false
   expanded: true
   packages:
-    - amarok
     - ardour
     - audacious
     - audacious-plugins
     - audacity
+    - byte
     - cava
     - clementine
     - curseradio-git

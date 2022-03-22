@@ -25,7 +25,6 @@
     - orchis-theme-git
     - qogir-gtk-theme-git
     - qogir-kde-theme-git
-    - sweet-kde-theme-mars-git
     - sweet-theme-git
     - sweet-gtk-theme-dark
 - name: "Icons"
@@ -40,15 +39,22 @@
     - breeze
     - faba-icon-theme-git
     - faba-mono-icons-git
+    - flat-remix-git
     - halo-icons-git
+    - la-capitaine-icon-theme-git
     - moka-icon-theme-git
     - numix-circle-arc-icons-git
     - numix-circle-icon-theme-git
+    - obsidian-icon-theme
+    - oranchelo-icon-theme-git
     - paper-icon-theme
     - papirus-icon-theme
     - qogir-icon-theme
     - surfn-mint-y-icons-git
     - tela-circle-icon-theme-git
+    - vimix-icon-theme-git
+    - we10x-icon-theme-git
+    - whitesur-icon-theme-git
     - zafiro-icon-theme
 - name: "Cursors"
   description: "Cursors"
@@ -98,3 +104,11 @@
     - sardi-orb-colora-mint-y-icons-git
     - sardi-orb-colora-mixing-icons-git
     - sardi-orb-colora-variations-icons-git
+- name: "Packages that will install plasma as a dependency"
+  description: "Plasma related"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: true
+  packages:
+    - sweet-kde-theme-mars-git

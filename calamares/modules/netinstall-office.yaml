@@ -56,8 +56,7 @@
   selected: false
   packages:
     - libreoffice-fresh
-    - libreoffice-fresh-$LOCALE
-    - hunspell-$LOCALE
+    - hunspell
 - name: "Libre Office Still"
   description: "Installs libre office still - stable branch - conflicts with fresh"
   critical: false
@@ -65,8 +64,7 @@
   selected: false
   packages:
     - libreoffice-still
-    - libreoffice-still-$LOCALE
-    - hunspell-$LOCALE
+    - hunspell
 - name: "Ms Office Online"
   description: "Microsoft Office Suite Online as a native application"
   critical: false
