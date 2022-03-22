@@ -10,7 +10,6 @@
     - falkon
     - firefox
     - firefox-adblock-plus
-    - firefox-i18n-$LOCALE
     - firefox-ublock-origin
     - google-chrome
     - librewolf-bin
