@@ -26,7 +26,7 @@
     - arcolinux-reflector-simple-git
     - arcolinux-teamviewer
     - arcolinux-tellme-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
 - name: "ArcoLinux Theming"
   description: "ArcoLinux theming packages"
   critical: false

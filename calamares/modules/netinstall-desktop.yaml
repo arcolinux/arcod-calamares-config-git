@@ -13,7 +13,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -47,7 +47,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -79,7 +79,7 @@
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-guake-autostart-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-wallpapers-git
     - budgie-desktop
     - budgie-extras
@@ -97,7 +97,7 @@
     - arcolinux-config-all-desktops-git
     - arcolinux-gtk3-surfn-arc-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - cinnamon
@@ -119,7 +119,7 @@
     - arcolinux-cutefish-git
     - arcolinux-config-all-desktops-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-wallpapers-git
     - cutefish
 - name: "Desktop: Cwm"
@@ -136,7 +136,7 @@
     - arcolinux-meta-logout
     - arcolinux-polybar-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -163,7 +163,7 @@
     - arcolinux-deepin-git
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-wallpapers-git
     - deepin
     - deepin-extra
@@ -183,7 +183,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -219,7 +219,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -255,7 +255,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -289,7 +289,7 @@
     - arcolinux-gtk3-sardi-arc-git
     - arcolinux-guake-autostart-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-wallpapers-git
     - gnome
     - gnome-extra
@@ -312,7 +312,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -348,7 +348,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -383,7 +383,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -420,7 +420,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -458,7 +458,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -501,7 +501,7 @@
     - arcolinux-meta-logout
     - arcolinux-lxqt-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - dmenu
@@ -529,7 +529,7 @@
     - arcolinux-mate-dconf-git
     - arcolinux-mate-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
     - dmenu
@@ -564,7 +564,7 @@
     - arcolinux-root-git
     - arcolinux-tint2-git
     - arcolinux-tint2-themes-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -617,7 +617,7 @@
     - arcolinux-plasma-git
     - arcolinux-plasma-kservices-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-wallpapers-git
     - ark
     - breeze
@@ -658,7 +658,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -692,7 +692,7 @@
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
     - arcolinux-spectrwm-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -724,7 +724,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-qt5-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-ukui-dconf-git
     - arcolinux-ukui-git
     - arcolinux-xfce-git
@@ -759,7 +759,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
@@ -790,7 +790,7 @@
     - arcolinux-local-xfce4-git
     - arcolinux-meta-logout
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-xfce-git
 - name: "Desktop: Xmonad"
   description: "Installs xmonad desktop"
@@ -807,7 +807,7 @@
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - arcolinux-tweak-tool-git
+    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
     - arcolinux-wallpapers-git
     - arcolinux-xfce-git
