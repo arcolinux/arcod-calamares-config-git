@@ -788,7 +788,7 @@
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout
+    - archlinux-logout-git
     - arcolinux-root-git
     - archlinux-tweak-tool-git
     - arcolinux-xfce-git
