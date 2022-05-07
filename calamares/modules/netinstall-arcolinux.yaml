@@ -22,11 +22,12 @@
   selected: false
   expanded: true
   packages:
+    - archlinux-logout-git
+    - archlinux-tweak-tool-git
     - arcolinux-desktop-trasher-git    
     - arcolinux-reflector-simple-git
     - arcolinux-teamviewer
     - arcolinux-tellme-git
-    - archlinux-tweak-tool-git
 - name: "ArcoLinux Theming"
   description: "ArcoLinux theming packages"
   critical: false
