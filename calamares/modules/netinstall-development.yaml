@@ -7,7 +7,6 @@
   packages:
     - anjuta
     - arduino
-    - atom
     - bluefish
     - brackets-bin
     - code
