@@ -21,5 +21,4 @@
     - tmux
     - vim
     - vim-runtime
-    - vim-plugins
     - zsh-theme-powerlevel10k-git

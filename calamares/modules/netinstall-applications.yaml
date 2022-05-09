@@ -19,7 +19,6 @@
     - plank
     - arcolinux-plank-themes-git
     - screenkey-git
-    - vim-plugins
     - variety
 - name: "Conky"
   description: "Conky and conky collection"
