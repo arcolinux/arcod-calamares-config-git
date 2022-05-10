@@ -24,7 +24,6 @@
     - orchis-kde-theme-git
     - orchis-theme-git
     - qogir-gtk-theme-git
-    - qogir-kde-theme-git
     - sweet-theme-git
     - sweet-gtk-theme-dark
 - name: "Icons"
@@ -111,4 +110,5 @@
   selected: false
   expanded: true
   packages:
+    - qogir-kde-theme-git
     - sweet-kde-theme-mars-git
