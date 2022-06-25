@@ -53,29 +53,6 @@ QWidget {
 	color: #58B2D7;
 }
 
-#debugButton {
-	font: bold 8px;
-	color: #FFFFFF;
-}
-#debugButton:hover {
-	color: #58B2D7;
-}
-
-#aboutButton:hover {
-	color: #58B2D7;
-}
-#donateButton:hover {
-	color: #58B2D7;
-}
-#supportButton:hover {
-	color: #58B2D7;
-}
-#knownIssuesButton:hover {
-	color: #58B2D7;
-}
-#releaseNotesButton:hover {
-	color: #58B2D7;
-}
 
 /* ########## TOOLTIP ########## */
 
@@ -337,12 +314,4 @@ QProgressBar {
 
 QProgressBar::chunk {
 	background-color: #58B2D7;
-}
-
-#debugButton {
-	font: bold 8px;
-	color: #353945;
-}
-#debugButton:hover {
-	color: #353945;
 }
