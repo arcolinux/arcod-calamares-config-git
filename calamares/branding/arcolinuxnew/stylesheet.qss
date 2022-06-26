@@ -315,3 +315,23 @@ QProgressBar {
 QProgressBar::chunk {
 	background-color: #58B2D7;
 }
+
+#debugButton {
+	background-color: none;
+	font: 12px;
+	color: #edecf0;
+    	height: 32px;
+    	border: none;
+}
+
+#debugButton:hover {
+	color: #ff7f7f;
+}
+
+#aboutButton {
+	background-color: none;
+	font: 12px;
+	color: #edecf0;
+    	height: 32px;
+    	border: none;
+}
