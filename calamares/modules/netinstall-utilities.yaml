@@ -19,8 +19,8 @@
     - grub-btrfs
     - snap-pac
     - snapper
-    - snapper-gui-git
     - snapper-support
+    - snapper-tools
 - name: "Utilities for Android"
   description: "Utility software android"
   critical: false
@@ -157,6 +157,7 @@
     - pacback
     - parcellite
     - piper
+    - power-profiles-daemon
     - powerpill
     - putty
     - redshift

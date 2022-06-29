@@ -51,7 +51,7 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-sddm-backgrounds-git
+    - archlinux-login-backgrounds-git
     - arcolinux-wallpapers-git
     - arcolinux-wallpapers-candy-git
     - arcolinux-wallpapers-dual-git
@@ -62,12 +62,9 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-sddm-backgrounds-git
-    - arcolinux-sddm-chili-git
-    - arcolinux-sddm-fralonra-git
+    - archlinux-login-backgrounds-git
     - arcolinux-sddm-futuristic-git
     - arcolinux-sddm-materia-git
-    - arcolinux-sddm-redrock-git
     - arcolinux-sddm-simplicity-git    
     - arcolinux-sddm-slice-git
     - arcolinux-sddm-sugar-candy-git
